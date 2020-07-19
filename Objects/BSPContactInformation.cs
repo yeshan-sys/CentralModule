@@ -19,7 +19,6 @@ namespace CentralModule.Objects
         }
 
         [FindsBy(How = How.Name, Using = "address1")]
-
         public IWebElement txtAddress1 { get; set; }
 
         [FindsBy(How = How.Name, Using = "address2")]
